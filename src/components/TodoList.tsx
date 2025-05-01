@@ -24,7 +24,7 @@ interface Task {
   id: string;
   text: string;
   completed: boolean;
-  category: "work" | "personal" | "shopping" | "other";
+  category: "work" | "personal" | "shopping" | "other" | "friends";
   priority: "low" | "medium" | "high";
   dueDate?: Date | null;
   dueTime?: string;
